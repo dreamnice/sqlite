@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF182EBF200E45100074B013 /* personalDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EBD200E45100074B013 /* personalDetailController.m */; };
+		DF182EC0200E45100074B013 /* personalDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182EBE200E45100074B013 /* personalDetailController.xib */; };
+		DF182EC3200E50E60074B013 /* studentCourseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EC2200E50E60074B013 /* studentCourseItem.m */; };
+		DF182EC7200E5E640074B013 /* selecetSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EC5200E5E640074B013 /* selecetSubjectController.m */; };
+		DF182EC8200E5E640074B013 /* selecetSubjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182EC6200E5E640074B013 /* selecetSubjectController.xib */; };
+		DF182ECB200E608B0074B013 /* courseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182ECA200E608B0074B013 /* courseItem.m */; };
+		DF182ECF200E78F00074B013 /* addNewSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182ECD200E78F00074B013 /* addNewSubjectController.m */; };
+		DF182ED0200E78F00074B013 /* addNewSubjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182ECE200E78F00074B013 /* addNewSubjectController.xib */; };
+		DF182ED9200E83880074B013 /* CZHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182ED2200E83870074B013 /* CZHDatePickerView.m */; };
+		DF182EDA200E83880074B013 /* UIButton+CZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182ED4200E83870074B013 /* UIButton+CZHExtension.m */; };
+		DF182EDB200E83880074B013 /* UIView+CZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182ED8200E83880074B013 /* UIView+CZHExtension.m */; };
+		DF182EDE200F6BBC0074B013 /* subjectData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EDD200F6BBC0074B013 /* subjectData.m */; };
+		DF182EE2200F709E0074B013 /* subjecdetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EE0200F709E0074B013 /* subjecdetailController.m */; };
+		DF182EE3200F709E0074B013 /* subjecdetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182EE1200F709E0074B013 /* subjecdetailController.xib */; };
+		DF182EE7200F8D460074B013 /* selectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EE5200F8D460074B013 /* selectController.m */; };
+		DF182EE8200F8D460074B013 /* selectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182EE6200F8D460074B013 /* selectController.xib */; };
+		DF182EEC200FA5BA0074B013 /* editSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EEA200FA5BA0074B013 /* editSubjectController.m */; };
+		DF182EED200FA5BA0074B013 /* editSubjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182EEB200FA5BA0074B013 /* editSubjectController.xib */; };
+		DF182EF0200FB2260074B013 /* departmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EEF200FB2260074B013 /* departmentItem.m */; };
+		DF182EF3200FB61C0074B013 /* teacherItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EF2200FB61C0074B013 /* teacherItem.m */; };
+		DF182EF6200FBA250074B013 /* LYWPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EF5200FBA250074B013 /* LYWPickerView.m */; };
+		DF182EFA200FC8AC0074B013 /* checkScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EF8200FC8AC0074B013 /* checkScoreController.m */; };
+		DF182EFB200FC8AC0074B013 /* checkScoreControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182EF9200FC8AC0074B013 /* checkScoreControllerViewController.xib */; };
+		DF182EFE200FC9810074B013 /* scoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182EFD200FC9810074B013 /* scoreData.m */; };
+		DF182F02200FCE750074B013 /* editScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182F00200FCE750074B013 /* editScoreController.m */; };
+		DF182F03200FCE750074B013 /* editScoreController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182F01200FCE750074B013 /* editScoreController.xib */; };
+		DF182F07200FD23F0074B013 /* scoreAndPersonalData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182F06200FD23F0074B013 /* scoreAndPersonalData.m */; };
+		DF182F0B200FDA930074B013 /* editeScoreDetaiController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182F09200FDA930074B013 /* editeScoreDetaiController.m */; };
+		DF182F0C200FDA930074B013 /* editeScoreDetaiControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182F0A200FDA930074B013 /* editeScoreDetaiControllerViewController.xib */; };
+		DF182F10200FE3BA0074B013 /* checkStudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182F0E200FE3BA0074B013 /* checkStudentController.m */; };
+		DF182F11200FE3BA0074B013 /* checkStudentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182F0F200FE3BA0074B013 /* checkStudentController.xib */; };
+		DF182F14200FE3EC0074B013 /* studentData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182F13200FE3EC0074B013 /* studentData.m */; };
+		DF182F18200FED6A0074B013 /* editStudentDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = DF182F16200FED6A0074B013 /* editStudentDetail.m */; };
+		DF182F19200FED6A0074B013 /* editStudentDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF182F17200FED6A0074B013 /* editStudentDetail.xib */; };
+		DFA72FFE200A8AEA00102DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA72FFD200A8AEA00102DC4 /* AppDelegate.m */; };
+		DFA73001200A8AEA00102DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73000200A8AEA00102DC4 /* ViewController.m */; };
+		DFA73004200A8AEA00102DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA73002200A8AEA00102DC4 /* Main.storyboard */; };
+		DFA73006200A8AEA00102DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA73005200A8AEA00102DC4 /* Assets.xcassets */; };
+		DFA73009200A8AEA00102DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA73007200A8AEA00102DC4 /* LaunchScreen.storyboard */; };
+		DFA7300C200A8AEA00102DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7300B200A8AEA00102DC4 /* main.m */; };
+		DFA73016200A8AEB00102DC4 /* sqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73015200A8AEB00102DC4 /* sqliteTests.m */; };
+		DFA73021200A8AEB00102DC4 /* sqliteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73020200A8AEB00102DC4 /* sqliteUITests.m */; };
+		DFA73030200A930300102DC4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA7302F200A930300102DC4 /* libsqlite3.0.tbd */; };
+		DFA73036200C7CC600102DC4 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73034200C7CC600102DC4 /* MainController.m */; };
+		DFA73037200C7CC600102DC4 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA73035200C7CC600102DC4 /* MainController.xib */; };
+		DFA7303B200CA5DB00102DC4 /* ZLSSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7303A200CA5DB00102DC4 /* ZLSSqlite.m */; };
+		DFA7303E200CC75400102DC4 /* item.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7303D200CC75400102DC4 /* item.m */; };
+		DFA73044200CD6AB00102DC4 /* itemInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73043200CD6AB00102DC4 /* itemInformation.m */; };
+		DFA73047200CD73A00102DC4 /* studentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73046200CD73A00102DC4 /* studentItem.m */; };
+		DFA7304C200E1A8500102DC4 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7304A200E1A8500102DC4 /* RegisterController.m */; };
+		DFA7304D200E1A8500102DC4 /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA7304B200E1A8500102DC4 /* RegisterController.xib */; };
+		DFA73051200E2B7A00102DC4 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7304F200E2B7A00102DC4 /* MenuController.m */; };
+		DFA73052200E2B7A00102DC4 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA73050200E2B7A00102DC4 /* MenuController.xib */; };
+		DFA73057200E31E600102DC4 /* menuCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73055200E31E600102DC4 /* menuCellTableViewCell.m */; };
+		DFA73058200E31E600102DC4 /* menuCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA73056200E31E600102DC4 /* menuCellTableViewCell.xib */; };
+		DFA7305D200E3CDF00102DC4 /* personalData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7305C200E3CDF00102DC4 /* personalData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA73012200A8AEB00102DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA72FF1200A8AEA00102DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA72FF8200A8AEA00102DC4;
+			remoteInfo = sqlite;
+		};
+		DFA7301D200A8AEB00102DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA72FF1200A8AEA00102DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA72FF8200A8AEA00102DC4;
+			remoteInfo = sqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF182EBC200E45100074B013 /* personalDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = personalDetailController.h; sourceTree = "<group>"; };
+		DF182EBD200E45100074B013 /* personalDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personalDetailController.m; sourceTree = "<group>"; };
+		DF182EBE200E45100074B013 /* personalDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = personalDetailController.xib; sourceTree = "<group>"; };
+		DF182EC1200E50E60074B013 /* studentCourseItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studentCourseItem.h; sourceTree = "<group>"; };
+		DF182EC2200E50E60074B013 /* studentCourseItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studentCourseItem.m; sourceTree = "<group>"; };
+		DF182EC4200E5E640074B013 /* selecetSubjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selecetSubjectController.h; sourceTree = "<group>"; };
+		DF182EC5200E5E640074B013 /* selecetSubjectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selecetSubjectController.m; sourceTree = "<group>"; };
+		DF182EC6200E5E640074B013 /* selecetSubjectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = selecetSubjectController.xib; sourceTree = "<group>"; };
+		DF182EC9200E608B0074B013 /* courseItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = courseItem.h; sourceTree = "<group>"; };
+		DF182ECA200E608B0074B013 /* courseItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = courseItem.m; sourceTree = "<group>"; };
+		DF182ECC200E78F00074B013 /* addNewSubjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addNewSubjectController.h; sourceTree = "<group>"; };
+		DF182ECD200E78F00074B013 /* addNewSubjectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addNewSubjectController.m; sourceTree = "<group>"; };
+		DF182ECE200E78F00074B013 /* addNewSubjectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = addNewSubjectController.xib; sourceTree = "<group>"; };
+		DF182ED2200E83870074B013 /* CZHDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHDatePickerView.m; sourceTree = "<group>"; };
+		DF182ED3200E83870074B013 /* UIButton+CZHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CZHExtension.h"; sourceTree = "<group>"; };
+		DF182ED4200E83870074B013 /* UIButton+CZHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CZHExtension.m"; sourceTree = "<group>"; };
+		DF182ED5200E83870074B013 /* DatePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerHeader.h; sourceTree = "<group>"; };
+		DF182ED6200E83870074B013 /* CZHDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHDatePickerView.h; sourceTree = "<group>"; };
+		DF182ED7200E83870074B013 /* UIView+CZHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZHExtension.h"; sourceTree = "<group>"; };
+		DF182ED8200E83880074B013 /* UIView+CZHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZHExtension.m"; sourceTree = "<group>"; };
+		DF182EDC200F6BBC0074B013 /* subjectData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subjectData.h; sourceTree = "<group>"; };
+		DF182EDD200F6BBC0074B013 /* subjectData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subjectData.m; sourceTree = "<group>"; };
+		DF182EDF200F709E0074B013 /* subjecdetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subjecdetailController.h; sourceTree = "<group>"; };
+		DF182EE0200F709E0074B013 /* subjecdetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subjecdetailController.m; sourceTree = "<group>"; };
+		DF182EE1200F709E0074B013 /* subjecdetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = subjecdetailController.xib; sourceTree = "<group>"; };
+		DF182EE4200F8D460074B013 /* selectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectController.h; sourceTree = "<group>"; };
+		DF182EE5200F8D460074B013 /* selectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectController.m; sourceTree = "<group>"; };
+		DF182EE6200F8D460074B013 /* selectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = selectController.xib; sourceTree = "<group>"; };
+		DF182EE9200FA5BA0074B013 /* editSubjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editSubjectController.h; sourceTree = "<group>"; };
+		DF182EEA200FA5BA0074B013 /* editSubjectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editSubjectController.m; sourceTree = "<group>"; };
+		DF182EEB200FA5BA0074B013 /* editSubjectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editSubjectController.xib; sourceTree = "<group>"; };
+		DF182EEE200FB2260074B013 /* departmentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = departmentItem.h; sourceTree = "<group>"; };
+		DF182EEF200FB2260074B013 /* departmentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = departmentItem.m; sourceTree = "<group>"; };
+		DF182EF1200FB61C0074B013 /* teacherItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = teacherItem.h; sourceTree = "<group>"; };
+		DF182EF2200FB61C0074B013 /* teacherItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teacherItem.m; sourceTree = "<group>"; };
+		DF182EF4200FBA250074B013 /* LYWPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWPickerView.h; sourceTree = "<group>"; };
+		DF182EF5200FBA250074B013 /* LYWPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWPickerView.m; sourceTree = "<group>"; };
+		DF182EF7200FC8AC0074B013 /* checkScoreController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = checkScoreController.h; sourceTree = "<group>"; };
+		DF182EF8200FC8AC0074B013 /* checkScoreController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checkScoreController.m; sourceTree = "<group>"; };
+		DF182EF9200FC8AC0074B013 /* checkScoreControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = checkScoreControllerViewController.xib; sourceTree = "<group>"; };
+		DF182EFC200FC9810074B013 /* scoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoreData.h; sourceTree = "<group>"; };
+		DF182EFD200FC9810074B013 /* scoreData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoreData.m; sourceTree = "<group>"; };
+		DF182EFF200FCE750074B013 /* editScoreController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editScoreController.h; sourceTree = "<group>"; };
+		DF182F00200FCE750074B013 /* editScoreController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editScoreController.m; sourceTree = "<group>"; };
+		DF182F01200FCE750074B013 /* editScoreController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editScoreController.xib; sourceTree = "<group>"; };
+		DF182F05200FD23F0074B013 /* scoreAndPersonalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoreAndPersonalData.h; sourceTree = "<group>"; };
+		DF182F06200FD23F0074B013 /* scoreAndPersonalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoreAndPersonalData.m; sourceTree = "<group>"; };
+		DF182F08200FDA930074B013 /* editeScoreDetaiController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editeScoreDetaiController.h; sourceTree = "<group>"; };
+		DF182F09200FDA930074B013 /* editeScoreDetaiController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editeScoreDetaiController.m; sourceTree = "<group>"; };
+		DF182F0A200FDA930074B013 /* editeScoreDetaiControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editeScoreDetaiControllerViewController.xib; sourceTree = "<group>"; };
+		DF182F0D200FE3B90074B013 /* checkStudentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = checkStudentController.h; sourceTree = "<group>"; };
+		DF182F0E200FE3BA0074B013 /* checkStudentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checkStudentController.m; sourceTree = "<group>"; };
+		DF182F0F200FE3BA0074B013 /* checkStudentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = checkStudentController.xib; sourceTree = "<group>"; };
+		DF182F12200FE3EC0074B013 /* studentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studentData.h; sourceTree = "<group>"; };
+		DF182F13200FE3EC0074B013 /* studentData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studentData.m; sourceTree = "<group>"; };
+		DF182F15200FED6A0074B013 /* editStudentDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editStudentDetail.h; sourceTree = "<group>"; };
+		DF182F16200FED6A0074B013 /* editStudentDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editStudentDetail.m; sourceTree = "<group>"; };
+		DF182F17200FED6A0074B013 /* editStudentDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editStudentDetail.xib; sourceTree = "<group>"; };
+		DFA72FF9200A8AEA00102DC4 /* sqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA72FFC200A8AEA00102DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFA72FFD200A8AEA00102DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFA72FFF200A8AEA00102DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFA73000200A8AEA00102DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFA73003200A8AEA00102DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFA73005200A8AEA00102DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA73008200A8AEA00102DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFA7300A200A8AEA00102DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA7300B200A8AEA00102DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFA73011200A8AEB00102DC4 /* sqliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA73015200A8AEB00102DC4 /* sqliteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqliteTests.m; sourceTree = "<group>"; };
+		DFA73017200A8AEB00102DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA7301C200A8AEB00102DC4 /* sqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA73020200A8AEB00102DC4 /* sqliteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqliteUITests.m; sourceTree = "<group>"; };
+		DFA73022200A8AEB00102DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA7302F200A930300102DC4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DFA73033200C7CC600102DC4 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		DFA73034200C7CC600102DC4 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		DFA73035200C7CC600102DC4 /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		DFA73039200CA5DB00102DC4 /* ZLSSqlite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSSqlite.h; sourceTree = "<group>"; };
+		DFA7303A200CA5DB00102DC4 /* ZLSSqlite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSSqlite.m; sourceTree = "<group>"; };
+		DFA7303C200CC75400102DC4 /* item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = item.h; sourceTree = "<group>"; };
+		DFA7303D200CC75400102DC4 /* item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = item.m; sourceTree = "<group>"; };
+		DFA73042200CD6AB00102DC4 /* itemInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itemInformation.h; sourceTree = "<group>"; };
+		DFA73043200CD6AB00102DC4 /* itemInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itemInformation.m; sourceTree = "<group>"; };
+		DFA73045200CD73A00102DC4 /* studentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = studentItem.h; sourceTree = "<group>"; };
+		DFA73046200CD73A00102DC4 /* studentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = studentItem.m; sourceTree = "<group>"; };
+		DFA73048200DE43100102DC4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DFA73049200E1A8500102DC4 /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		DFA7304A200E1A8500102DC4 /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		DFA7304B200E1A8500102DC4 /* RegisterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		DFA7304E200E2B7A00102DC4 /* MenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		DFA7304F200E2B7A00102DC4 /* MenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		DFA73050200E2B7A00102DC4 /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		DFA73054200E31E600102DC4 /* menuCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menuCellTableViewCell.h; sourceTree = "<group>"; };
+		DFA73055200E31E600102DC4 /* menuCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuCellTableViewCell.m; sourceTree = "<group>"; };
+		DFA73056200E31E600102DC4 /* menuCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuCellTableViewCell.xib; sourceTree = "<group>"; };
+		DFA7305B200E3CDF00102DC4 /* personalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = personalData.h; sourceTree = "<group>"; };
+		DFA7305C200E3CDF00102DC4 /* personalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personalData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA72FF6200A8AEA00102DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA73030200A930300102DC4 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA7300E200A8AEB00102DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA73019200A8AEB00102DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF182ED1200E83790074B013 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				DF182ED6200E83870074B013 /* CZHDatePickerView.h */,
+				DF182ED2200E83870074B013 /* CZHDatePickerView.m */,
+				DF182ED5200E83870074B013 /* DatePickerHeader.h */,
+				DF182ED3200E83870074B013 /* UIButton+CZHExtension.h */,
+				DF182ED4200E83870074B013 /* UIButton+CZHExtension.m */,
+				DF182ED7200E83870074B013 /* UIView+CZHExtension.h */,
+				DF182ED8200E83880074B013 /* UIView+CZHExtension.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		DF182F1A201001CF0074B013 /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				DF182F1E201018D60074B013 /* FirstController */,
+				DF182F1F2010190E0074B013 /* SecondController */,
+				DF182F20201019250074B013 /* ThirdController */,
+				DF182F21201019A40074B013 /* FourthController */,
+				DF182F1C201001FF0074B013 /* MenuControlelr */,
+				DF182F1B201001E50074B013 /* MainController */,
+				DFA73059200E31EC00102DC4 /* View */,
+				DFA73053200E2B8200102DC4 /* Controller */,
+				DFA7305A200E3CAB00102DC4 /* Model */,
+			);
+			path = Sqlite;
+			sourceTree = "<group>";
+		};
+		DF182F1B201001E50074B013 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				DFA73049200E1A8500102DC4 /* RegisterController.h */,
+				DFA7304A200E1A8500102DC4 /* RegisterController.m */,
+				DFA7304B200E1A8500102DC4 /* RegisterController.xib */,
+				DFA73033200C7CC600102DC4 /* MainController.h */,
+				DFA73034200C7CC600102DC4 /* MainController.m */,
+				DFA73035200C7CC600102DC4 /* MainController.xib */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		DF182F1C201001FF0074B013 /* MenuControlelr */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7304E200E2B7A00102DC4 /* MenuController.h */,
+				DFA7304F200E2B7A00102DC4 /* MenuController.m */,
+				DFA73050200E2B7A00102DC4 /* MenuController.xib */,
+			);
+			path = MenuControlelr;
+			sourceTree = "<group>";
+		};
+		DF182F1E201018D60074B013 /* FirstController */ = {
+			isa = PBXGroup;
+			children = (
+				DF182EBC200E45100074B013 /* personalDetailController.h */,
+				DF182EBD200E45100074B013 /* personalDetailController.m */,
+				DF182EBE200E45100074B013 /* personalDetailController.xib */,
+			);
+			path = FirstController;
+			sourceTree = "<group>";
+		};
+		DF182F1F2010190E0074B013 /* SecondController */ = {
+			isa = PBXGroup;
+			children = (
+				DF182EE9200FA5BA0074B013 /* editSubjectController.h */,
+				DF182EEA200FA5BA0074B013 /* editSubjectController.m */,
+				DF182EEB200FA5BA0074B013 /* editSubjectController.xib */,
+				DF182EC4200E5E640074B013 /* selecetSubjectController.h */,
+				DF182EC5200E5E640074B013 /* selecetSubjectController.m */,
+				DF182EC6200E5E640074B013 /* selecetSubjectController.xib */,
+				DF182ECC200E78F00074B013 /* addNewSubjectController.h */,
+				DF182ECD200E78F00074B013 /* addNewSubjectController.m */,
+				DF182ECE200E78F00074B013 /* addNewSubjectController.xib */,
+				DF182EDF200F709E0074B013 /* subjecdetailController.h */,
+				DF182EE0200F709E0074B013 /* subjecdetailController.m */,
+				DF182EE1200F709E0074B013 /* subjecdetailController.xib */,
+			);
+			path = SecondController;
+			sourceTree = "<group>";
+		};
+		DF182F20201019250074B013 /* ThirdController */ = {
+			isa = PBXGroup;
+			children = (
+				DF182EE4200F8D460074B013 /* selectController.h */,
+				DF182EE5200F8D460074B013 /* selectController.m */,
+				DF182EE6200F8D460074B013 /* selectController.xib */,
+				DF182EFF200FCE750074B013 /* editScoreController.h */,
+				DF182F00200FCE750074B013 /* editScoreController.m */,
+				DF182F01200FCE750074B013 /* editScoreController.xib */,
+				DF182EF7200FC8AC0074B013 /* checkScoreController.h */,
+				DF182EF8200FC8AC0074B013 /* checkScoreController.m */,
+				DF182EF9200FC8AC0074B013 /* checkScoreControllerViewController.xib */,
+				DF182F08200FDA930074B013 /* editeScoreDetaiController.h */,
+				DF182F09200FDA930074B013 /* editeScoreDetaiController.m */,
+				DF182F0A200FDA930074B013 /* editeScoreDetaiControllerViewController.xib */,
+			);
+			path = ThirdController;
+			sourceTree = "<group>";
+		};
+		DF182F21201019A40074B013 /* FourthController */ = {
+			isa = PBXGroup;
+			children = (
+				DF182F15200FED6A0074B013 /* editStudentDetail.h */,
+				DF182F16200FED6A0074B013 /* editStudentDetail.m */,
+				DF182F17200FED6A0074B013 /* editStudentDetail.xib */,
+				DF182F0D200FE3B90074B013 /* checkStudentController.h */,
+				DF182F0E200FE3BA0074B013 /* checkStudentController.m */,
+				DF182F0F200FE3BA0074B013 /* checkStudentController.xib */,
+			);
+			path = FourthController;
+			sourceTree = "<group>";
+		};
+		DFA72FF0200A8AEA00102DC4 = {
+			isa = PBXGroup;
+			children = (
+				DFA72FFB200A8AEA00102DC4 /* sqlite */,
+				DFA73014200A8AEB00102DC4 /* sqliteTests */,
+				DFA7301F200A8AEB00102DC4 /* sqliteUITests */,
+				DFA72FFA200A8AEA00102DC4 /* Products */,
+				DFA7302E200A930300102DC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA72FFA200A8AEA00102DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA72FF9200A8AEA00102DC4 /* sqlite.app */,
+				DFA73011200A8AEB00102DC4 /* sqliteTests.xctest */,
+				DFA7301C200A8AEB00102DC4 /* sqliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA72FFB200A8AEA00102DC4 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				DFA73032200C7CA000102DC4 /* Sqlite */,
+				DFA73031200C7C9400102DC4 /* Other */,
+				DFA73005200A8AEA00102DC4 /* Assets.xcassets */,
+				DFA73007200A8AEA00102DC4 /* LaunchScreen.storyboard */,
+				DFA7300A200A8AEA00102DC4 /* Info.plist */,
+				DFA7300B200A8AEA00102DC4 /* main.m */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+		DFA73014200A8AEB00102DC4 /* sqliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA73015200A8AEB00102DC4 /* sqliteTests.m */,
+				DFA73017200A8AEB00102DC4 /* Info.plist */,
+			);
+			path = sqliteTests;
+			sourceTree = "<group>";
+		};
+		DFA7301F200A8AEB00102DC4 /* sqliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFA73020200A8AEB00102DC4 /* sqliteUITests.m */,
+				DFA73022200A8AEB00102DC4 /* Info.plist */,
+			);
+			path = sqliteUITests;
+			sourceTree = "<group>";
+		};
+		DFA7302E200A930300102DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7302F200A930300102DC4 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA73031200C7C9400102DC4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DFA72FFC200A8AEA00102DC4 /* AppDelegate.h */,
+				DFA72FFD200A8AEA00102DC4 /* AppDelegate.m */,
+				DFA72FFF200A8AEA00102DC4 /* ViewController.h */,
+				DFA73000200A8AEA00102DC4 /* ViewController.m */,
+				DFA73002200A8AEA00102DC4 /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DFA73032200C7CA000102DC4 /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				DFA73048200DE43100102DC4 /* PrefixHeader.pch */,
+				DF182ED1200E83790074B013 /* tool */,
+				DF182F1A201001CF0074B013 /* Sqlite */,
+				DFA73038200CA5AB00102DC4 /* 操作 */,
+			);
+			path = Sqlite;
+			sourceTree = "<group>";
+		};
+		DFA73038200CA5AB00102DC4 /* 操作 */ = {
+			isa = PBXGroup;
+			children = (
+				DF182EF1200FB61C0074B013 /* teacherItem.h */,
+				DF182EF2200FB61C0074B013 /* teacherItem.m */,
+				DF182EEE200FB2260074B013 /* departmentItem.h */,
+				DF182EEF200FB2260074B013 /* departmentItem.m */,
+				DF182EC9200E608B0074B013 /* courseItem.h */,
+				DF182ECA200E608B0074B013 /* courseItem.m */,
+				DF182EC1200E50E60074B013 /* studentCourseItem.h */,
+				DF182EC2200E50E60074B013 /* studentCourseItem.m */,
+				DFA73045200CD73A00102DC4 /* studentItem.h */,
+				DFA73046200CD73A00102DC4 /* studentItem.m */,
+				DFA73042200CD6AB00102DC4 /* itemInformation.h */,
+				DFA73043200CD6AB00102DC4 /* itemInformation.m */,
+				DFA7303C200CC75400102DC4 /* item.h */,
+				DFA7303D200CC75400102DC4 /* item.m */,
+				DFA73039200CA5DB00102DC4 /* ZLSSqlite.h */,
+				DFA7303A200CA5DB00102DC4 /* ZLSSqlite.m */,
+			);
+			path = "操作";
+			sourceTree = "<group>";
+		};
+		DFA73053200E2B8200102DC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFA73059200E31EC00102DC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFA73054200E31E600102DC4 /* menuCellTableViewCell.h */,
+				DFA73055200E31E600102DC4 /* menuCellTableViewCell.m */,
+				DFA73056200E31E600102DC4 /* menuCellTableViewCell.xib */,
+				DF182EF4200FBA250074B013 /* LYWPickerView.h */,
+				DF182EF5200FBA250074B013 /* LYWPickerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFA7305A200E3CAB00102DC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFA7305B200E3CDF00102DC4 /* personalData.h */,
+				DFA7305C200E3CDF00102DC4 /* personalData.m */,
+				DF182EDC200F6BBC0074B013 /* subjectData.h */,
+				DF182EDD200F6BBC0074B013 /* subjectData.m */,
+				DF182EFC200FC9810074B013 /* scoreData.h */,
+				DF182EFD200FC9810074B013 /* scoreData.m */,
+				DF182F05200FD23F0074B013 /* scoreAndPersonalData.h */,
+				DF182F06200FD23F0074B013 /* scoreAndPersonalData.m */,
+				DF182F12200FE3EC0074B013 /* studentData.h */,
+				DF182F13200FE3EC0074B013 /* studentData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA72FF8200A8AEA00102DC4 /* sqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA73025200A8AEB00102DC4 /* Build configuration list for PBXNativeTarget "sqlite" */;
+			buildPhases = (
+				DFA72FF5200A8AEA00102DC4 /* Sources */,
+				DFA72FF6200A8AEA00102DC4 /* Frameworks */,
+				DFA72FF7200A8AEA00102DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqlite;
+			productName = sqlite;
+			productReference = DFA72FF9200A8AEA00102DC4 /* sqlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFA73010200A8AEB00102DC4 /* sqliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA73028200A8AEB00102DC4 /* Build configuration list for PBXNativeTarget "sqliteTests" */;
+			buildPhases = (
+				DFA7300D200A8AEB00102DC4 /* Sources */,
+				DFA7300E200A8AEB00102DC4 /* Frameworks */,
+				DFA7300F200A8AEB00102DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA73013200A8AEB00102DC4 /* PBXTargetDependency */,
+			);
+			name = sqliteTests;
+			productName = sqliteTests;
+			productReference = DFA73011200A8AEB00102DC4 /* sqliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFA7301B200A8AEB00102DC4 /* sqliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA7302B200A8AEB00102DC4 /* Build configuration list for PBXNativeTarget "sqliteUITests" */;
+			buildPhases = (
+				DFA73018200A8AEB00102DC4 /* Sources */,
+				DFA73019200A8AEB00102DC4 /* Frameworks */,
+				DFA7301A200A8AEB00102DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA7301E200A8AEB00102DC4 /* PBXTargetDependency */,
+			);
+			name = sqliteUITests;
+			productName = sqliteUITests;
+			productReference = DFA7301C200A8AEB00102DC4 /* sqliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA72FF1200A8AEA00102DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "朱力珅";
+				TargetAttributes = {
+					DFA72FF8200A8AEA00102DC4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DFA73010200A8AEB00102DC4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFA72FF8200A8AEA00102DC4;
+					};
+					DFA7301B200A8AEB00102DC4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFA72FF8200A8AEA00102DC4;
+					};
+				};
+			};
+			buildConfigurationList = DFA72FF4200A8AEA00102DC4 /* Build configuration list for PBXProject "sqlite" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA72FF0200A8AEA00102DC4;
+			productRefGroup = DFA72FFA200A8AEA00102DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA72FF8200A8AEA00102DC4 /* sqlite */,
+				DFA73010200A8AEB00102DC4 /* sqliteTests */,
+				DFA7301B200A8AEB00102DC4 /* sqliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA72FF7200A8AEA00102DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF182EFB200FC8AC0074B013 /* checkScoreControllerViewController.xib in Resources */,
+				DF182EC0200E45100074B013 /* personalDetailController.xib in Resources */,
+				DFA73052200E2B7A00102DC4 /* MenuController.xib in Resources */,
+				DF182EED200FA5BA0074B013 /* editSubjectController.xib in Resources */,
+				DF182F11200FE3BA0074B013 /* checkStudentController.xib in Resources */,
+				DFA73037200C7CC600102DC4 /* MainController.xib in Resources */,
+				DFA7304D200E1A8500102DC4 /* RegisterController.xib in Resources */,
+				DFA73009200A8AEA00102DC4 /* LaunchScreen.storyboard in Resources */,
+				DFA73006200A8AEA00102DC4 /* Assets.xcassets in Resources */,
+				DF182EE3200F709E0074B013 /* subjecdetailController.xib in Resources */,
+				DF182EC8200E5E640074B013 /* selecetSubjectController.xib in Resources */,
+				DF182ED0200E78F00074B013 /* addNewSubjectController.xib in Resources */,
+				DF182F19200FED6A0074B013 /* editStudentDetail.xib in Resources */,
+				DF182F03200FCE750074B013 /* editScoreController.xib in Resources */,
+				DF182EE8200F8D460074B013 /* selectController.xib in Resources */,
+				DF182F0C200FDA930074B013 /* editeScoreDetaiControllerViewController.xib in Resources */,
+				DFA73058200E31E600102DC4 /* menuCellTableViewCell.xib in Resources */,
+				DFA73004200A8AEA00102DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA7300F200A8AEB00102DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA7301A200A8AEB00102DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA72FF5200A8AEA00102DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF182EC3200E50E60074B013 /* studentCourseItem.m in Sources */,
+				DFA73036200C7CC600102DC4 /* MainController.m in Sources */,
+				DFA73044200CD6AB00102DC4 /* itemInformation.m in Sources */,
+				DF182EF3200FB61C0074B013 /* teacherItem.m in Sources */,
+				DFA73057200E31E600102DC4 /* menuCellTableViewCell.m in Sources */,
+				DF182F07200FD23F0074B013 /* scoreAndPersonalData.m in Sources */,
+				DF182EEC200FA5BA0074B013 /* editSubjectController.m in Sources */,
+				DF182ED9200E83880074B013 /* CZHDatePickerView.m in Sources */,
+				DF182EDA200E83880074B013 /* UIButton+CZHExtension.m in Sources */,
+				DF182F02200FCE750074B013 /* editScoreController.m in Sources */,
+				DF182EFA200FC8AC0074B013 /* checkScoreController.m in Sources */,
+				DFA73051200E2B7A00102DC4 /* MenuController.m in Sources */,
+				DFA7303B200CA5DB00102DC4 /* ZLSSqlite.m in Sources */,
+				DFA7303E200CC75400102DC4 /* item.m in Sources */,
+				DF182ECB200E608B0074B013 /* courseItem.m in Sources */,
+				DF182EBF200E45100074B013 /* personalDetailController.m in Sources */,
+				DF182EE7200F8D460074B013 /* selectController.m in Sources */,
+				DF182EC7200E5E640074B013 /* selecetSubjectController.m in Sources */,
+				DF182EF0200FB2260074B013 /* departmentItem.m in Sources */,
+				DFA73001200A8AEA00102DC4 /* ViewController.m in Sources */,
+				DF182ECF200E78F00074B013 /* addNewSubjectController.m in Sources */,
+				DF182F0B200FDA930074B013 /* editeScoreDetaiController.m in Sources */,
+				DF182EDE200F6BBC0074B013 /* subjectData.m in Sources */,
+				DF182F14200FE3EC0074B013 /* studentData.m in Sources */,
+				DF182EDB200E83880074B013 /* UIView+CZHExtension.m in Sources */,
+				DF182EFE200FC9810074B013 /* scoreData.m in Sources */,
+				DFA7305D200E3CDF00102DC4 /* personalData.m in Sources */,
+				DF182F10200FE3BA0074B013 /* checkStudentController.m in Sources */,
+				DFA7304C200E1A8500102DC4 /* RegisterController.m in Sources */,
+				DF182F18200FED6A0074B013 /* editStudentDetail.m in Sources */,
+				DF182EE2200F709E0074B013 /* subjecdetailController.m in Sources */,
+				DF182EF6200FBA250074B013 /* LYWPickerView.m in Sources */,
+				DFA7300C200A8AEA00102DC4 /* main.m in Sources */,
+				DFA72FFE200A8AEA00102DC4 /* AppDelegate.m in Sources */,
+				DFA73047200CD73A00102DC4 /* studentItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA7300D200A8AEB00102DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA73016200A8AEB00102DC4 /* sqliteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA73018200A8AEB00102DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA73021200A8AEB00102DC4 /* sqliteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA73013200A8AEB00102DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA72FF8200A8AEA00102DC4 /* sqlite */;
+			targetProxy = DFA73012200A8AEB00102DC4 /* PBXContainerItemProxy */;
+		};
+		DFA7301E200A8AEB00102DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA72FF8200A8AEA00102DC4 /* sqlite */;
+			targetProxy = DFA7301D200A8AEB00102DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFA73002200A8AEA00102DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA73003200A8AEA00102DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFA73007200A8AEA00102DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA73008200A8AEA00102DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFA73023200A8AEB00102DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFA73024200A8AEB00102DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA73026200A8AEB00102DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS2S9B58AB;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sqlite/Sqlite/PrefixHeader.pch";
+				INFOPLIST_FILE = sqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.sqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFA73027200A8AEB00102DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS2S9B58AB;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sqlite/Sqlite/PrefixHeader.pch";
+				INFOPLIST_FILE = sqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.sqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFA73029200A8AEB00102DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS2S9B58AB;
+				INFOPLIST_FILE = sqliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.bank.sqliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlite.app/sqlite";
+			};
+			name = Debug;
+		};
+		DFA7302A200A8AEB00102DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS2S9B58AB;
+				INFOPLIST_FILE = sqliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.bank.sqliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlite.app/sqlite";
+			};
+			name = Release;
+		};
+		DFA7302C200A8AEB00102DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS2S9B58AB;
+				INFOPLIST_FILE = sqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.bank.sqliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqlite;
+			};
+			name = Debug;
+		};
+		DFA7302D200A8AEB00102DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HS2S9B58AB;
+				INFOPLIST_FILE = sqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.bank.sqliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqlite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA72FF4200A8AEA00102DC4 /* Build configuration list for PBXProject "sqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA73023200A8AEB00102DC4 /* Debug */,
+				DFA73024200A8AEB00102DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA73025200A8AEB00102DC4 /* Build configuration list for PBXNativeTarget "sqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA73026200A8AEB00102DC4 /* Debug */,
+				DFA73027200A8AEB00102DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA73028200A8AEB00102DC4 /* Build configuration list for PBXNativeTarget "sqliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA73029200A8AEB00102DC4 /* Debug */,
+				DFA7302A200A8AEB00102DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA7302B200A8AEB00102DC4 /* Build configuration list for PBXNativeTarget "sqliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA7302C200A8AEB00102DC4 /* Debug */,
+				DFA7302D200A8AEB00102DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA72FF1200A8AEA00102DC4 /* Project object */;
+}
