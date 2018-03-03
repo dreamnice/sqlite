@@ -58,6 +58,7 @@ static NSString *dbFullPath;
 //创建表
 - (BOOL)createTableItems:(item *)items{
     if([self openDB]){
+        NSString *t;
         if([items.itemTableName isEqualToString:@""]  && items == nil && items.informations.count == 0){
             NSLog(@"请输入适当参数");
             return NO;
