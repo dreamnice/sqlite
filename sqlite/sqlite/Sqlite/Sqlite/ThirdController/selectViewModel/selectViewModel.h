@@ -10,4 +10,6 @@
 
 @interface selectViewModel : NSObject
 
+- (void)fetchSelectData:(ReturnBlock)returnBlock;
+
 @end
