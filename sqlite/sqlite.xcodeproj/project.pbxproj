@@ -184,6 +184,7 @@
 		DFA7305C200E3CDF00102DC4 /* personalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personalData.m; sourceTree = "<group>"; };
 		DFE42820205AD75900083A74 /* selectViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectViewModel.h; sourceTree = "<group>"; };
 		DFE42821205AD75900083A74 /* selectViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectViewModel.m; sourceTree = "<group>"; };
+		DFE42823205ADC3200083A74 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				DFA73048200DE43100102DC4 /* PrefixHeader.pch */,
+				DFE42823205ADC3200083A74 /* config.h */,
 				DF182ED1200E83790074B013 /* tool */,
 				DF182F1A201001CF0074B013 /* Sqlite */,
 				DFA73038200CA5AB00102DC4 /* 操作 */,
