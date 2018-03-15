@@ -63,6 +63,7 @@
 		DFA73057200E31E600102DC4 /* menuCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA73055200E31E600102DC4 /* menuCellTableViewCell.m */; };
 		DFA73058200E31E600102DC4 /* menuCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA73056200E31E600102DC4 /* menuCellTableViewCell.xib */; };
 		DFA7305D200E3CDF00102DC4 /* personalData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7305C200E3CDF00102DC4 /* personalData.m */; };
+		DFE42822205AD75900083A74 /* selectViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE42821205AD75900083A74 /* selectViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,8 @@
 		DFA73056200E31E600102DC4 /* menuCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuCellTableViewCell.xib; sourceTree = "<group>"; };
 		DFA7305B200E3CDF00102DC4 /* personalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = personalData.h; sourceTree = "<group>"; };
 		DFA7305C200E3CDF00102DC4 /* personalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personalData.m; sourceTree = "<group>"; };
+		DFE42820205AD75900083A74 /* selectViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectViewModel.h; sourceTree = "<group>"; };
+		DFE42821205AD75900083A74 /* selectViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +297,7 @@
 		DF182F20201019250074B013 /* ThirdController */ = {
 			isa = PBXGroup;
 			children = (
+				DFE4281F205AD74000083A74 /* selectViewModel */,
 				DF182EE4200F8D460074B013 /* selectController.h */,
 				DF182EE5200F8D460074B013 /* selectController.m */,
 				DF182EE6200F8D460074B013 /* selectController.xib */,
@@ -465,6 +469,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DFE4281F205AD74000083A74 /* selectViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFE42820205AD75900083A74 /* selectViewModel.h */,
+				DFE42821205AD75900083A74 /* selectViewModel.m */,
+			);
+			path = selectViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -617,6 +630,7 @@
 				DFA73036200C7CC600102DC4 /* MainController.m in Sources */,
 				DFA73044200CD6AB00102DC4 /* itemInformation.m in Sources */,
 				DF182EF3200FB61C0074B013 /* teacherItem.m in Sources */,
+				DFE42822205AD75900083A74 /* selectViewModel.m in Sources */,
 				DFA73057200E31E600102DC4 /* menuCellTableViewCell.m in Sources */,
 				DF182F07200FD23F0074B013 /* scoreAndPersonalData.m in Sources */,
 				DF182EEC200FA5BA0074B013 /* editSubjectController.m in Sources */,
